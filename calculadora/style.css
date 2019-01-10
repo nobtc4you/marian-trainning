@@ -1,0 +1,74 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border:7px #CCC solid;
+  padding:15px;
+
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d4c9c9;
+  border:5px #CCC solid;
+  padding:10px;
+}
+
+.multiplicadores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+.sumar{
+order: 4
+}
+
+.restar{
+  order: 3
+}
+.multiplicar{
+  order: 2
+}
+.dividir{
+  order: 1
+}
+button{
+  color: lightblue;
+}
+.reset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.resultado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.SUM{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px
+}

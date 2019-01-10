@@ -1,0 +1,54 @@
+<!DOCUMENT html>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="main">
+    <div class="titulo">
+      <h1>CALCULADORA</h1>
+    </div>
+
+    <script src="main.js" charset="utf-8"> </script>
+    <div class="inside">
+
+      <div>
+        <input id="a" type="number"/>
+        <input id="b" type="number"/>
+        <div class="multiplicadores">
+
+
+
+          <div class="sumar">
+            <input type="button" value="sumar" onclick="sumar(document.getElementById('a').value,document.getElementById('b').value);"/>
+          </div>
+          <div class="restar">
+            <input type="button" value="restar" onclick="restar(document.getElementById('a').value,document.getElementById('b').value);"/>
+          </div>
+          <div class="multiplicar">
+            <input type="button" value="multiplicacion" onclick="multiplicar(document.getElementById('a').value,document.getElementById('b').value);"/>
+          </div>
+          <div class="dividir">
+            <input type="button" value="division" onclick="dividir(document.getElementById('a').value,document.getElementById('b').value);"/>
+          </div>
+        </div>
+
+        <div class="reset">
+          <input type="button" value="Reset" onclick="reset()"/>
+        </div>
+
+        <div class="resultado">
+          <input id="resultado" type="number"/>
+        </div>
+
+        <div class="SUM">
+          <input type="button" value="supersuma">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>﻿
