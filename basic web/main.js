@@ -1,28 +1,44 @@
 
 
-console.log("Hola soy marian como estas?");//1a
-
-
-let numT = 731;
-
-console.log("ejercicio 2 a "+ numT*13/100); //2a
-
-
-console.log( numT+numT); //2b
-
-
-console.log(numT*13/100 - (numT+numT)); //2c
-
-console.log("sus numeros de la suerte son: ", numT,numT*13/100,numT+numT,"y",numT*13/100 - (numT+numT));//3d
-
-
 function aleatorio(minimo,maximo){ //3a
   return Math.floor(Math.random() * ((maximo+1)-minimo)+minimo);
 }
 
-//para mas numeros randoms, loop por cant de numeros?
+function arrayRandom(cant, max, min){
+  let arrAux =[];
+  while(--cant > 0) {
+    arrAux.push(aleatorio(min,max));
+  }
+  return arrAux;
+}
+//////////////////////////////////////////////////////////////////////////////// array random
+let sorteaDeEsto = (arrayRandom (10,15,0));
 
-console.log(aleatorio (1,10));
+
+/*
+function linearSearch(array, toFind){
+  for(let i = 0; i < array.length; i++){
+    if(array[i] === toFind) return i;
+  }
+  return -1;
+}
+*/
+
+
+var answer = 'not found';
+
+function LinearSearch(A,searchQuery) {
+  for (var i = 0; i < 10; i++) {
+    if( A[i] === searchQuery) {
+      return i
+    }
+  }
+  return answer
+}
+
+
+console.log(LinearSearch(sorteaDeEsto,7));
+//////////////////////////////////////////////////////////////////////////////// linear search
 
 
 function bubbleSort(arr){
@@ -67,7 +83,7 @@ function quick_Sort(origArray) {
 	}
 }
 
-var myArray = [3, 0, 2, 5, -1, 4, 1 ]; //string de radom?
+var myArray = (arrayRandom(10,15,0));
 
 console.log("Original array: " + myArray);
 var sortedArray = quick_Sort(myArray);
