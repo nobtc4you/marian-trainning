@@ -1,5 +1,11 @@
+function setup $( document ).ready(function() {
+    console.log( "ready!" );
+});
+
+
 function sumar (a,b) {
- document.getElementById('resultado').value = ""+(Number(a)+Number(b));
+ document.getElementById('resultado').value = ""+(Number(a)+Number(b))
+ var total = total + input(a);
 }
 function restar (a,b){
  document.getElementById('resultado').value = ""+(Number(a)-Number(b));
@@ -28,3 +34,5 @@ retur
 
    }
 */
+
+console.log(total);
