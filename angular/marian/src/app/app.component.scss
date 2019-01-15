@@ -1,0 +1,142 @@
+.main {
+  /* list-style: armenian; */
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  position: relative;
+  height: 100vh;
+  background-color: #B5D8F5;
+  background-image: url("/assets/heroimage.jpg");
+  
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    /* margin-bottom: 500px; */
+    /* margin-top: 150px; */
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
+
+
+hr {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  background-color: #B5D8F5;
+  border-color: #B5D8F5;
+  margin-top: 23px;
+}
+
+.boxandtextthing {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+
+.box1 {
+
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  margin-right: 250px;
+  background-color: #5046F4;
+
+}
+
+.box2 {
+  height: 50px;
+  width: 50px;
+  background-color: #71EE50;
+  border-radius: 5px;
+  margin-left: -510px;
+}
+
+
+.box3 {
+
+  height: 50px;
+  width: 50px;
+  background-color: #F631F3;
+  border-radius: 5px;
+  margin-right: 250px;
+
+}
+
+/*
+.heroimage{
+
+background-size: cover;
+background-attachment: scroll;
+background-image:url("https://wallpapercave.com/wp/wp2054299.jpg");
+//background-image:url("/basic web/heroimage")
+//background-image:url("../basic web/heroimage")
+//background-image:url("../../basic web/heroimage")
+
+
+}
+*/
+
+
+.listandimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.lineimage {
+  margin-top: 100px;
+  order: 2;
+  content: url(http://lbanegas.com/lecciones/capitulo02/clips/linea1.png);
+  margin-left: 100px;
+}
+
+
+.list {
+
+  order: 1;
+}
+
+
+.footer {
+  display: flex;
+  height: 100px;
+  background-color: #6AD4EA;
+  flex-direction: column;
+}
+
+.name {
+  order: 1;
+  margin-left: 15px;
+}
+
+.date {
+
+  order: 2;
+  margin-top: -25px;
+  /* margin-left: 1780px; */
+}
+
+#white {
+
+  color: white;
+}
