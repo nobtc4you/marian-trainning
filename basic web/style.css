@@ -1,9 +1,29 @@
+html, body{
+  margin: 0;
+  width: 100%;
+}
+
 .main{
-  list-style: none;
+  /* list-style: armenian; */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  position: relative;
   height: 100vh;
+  background-color: #B5D8F5;
+  background-image: url("heroimage.jpg");
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  /* margin-bottom: 500px; */
+  /* margin-top: 150px; */
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 hr{
@@ -107,7 +127,6 @@ background-image:url("https://wallpapercave.com/wp/wp2054299.jpg");
 }
 
 .name {
-
   order: 1;
   margin-left: 15px;
 }
@@ -116,7 +135,7 @@ background-image:url("https://wallpapercave.com/wp/wp2054299.jpg");
 
   order: 2;
   margin-top: -25px;
-  margin-left: 1780px;
+  /* margin-left: 1780px; */
 }
 #white{
 
