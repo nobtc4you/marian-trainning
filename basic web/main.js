@@ -12,7 +12,6 @@ function arrayRandom(cant, max, min){
   return arrAux;
 }
 ////////////////////////////////////////////////////////////////////////////////// array random
-let sorteaDeEsto = (arrayRandom (10,15,0));
 
 
 /*
@@ -24,37 +23,27 @@ return -1;
 }
 */
 
-var answer = 'foundnumber7';
 
 function LinearSearch(A,searchQuery) {
-  for (var i = 0; i < 10; i++) {
+  // console.log("prueba: " + A.length);
+  for (var i = 0; i < A.length; i++) {
     if( A[i] === searchQuery) {
-      return i
+      return i;
     }
   }
-  return answer
+  return undefined;
 }
 
 
-console.log(LinearSearch(sorteaDeEsto,7));
-//////////////////////////////////////////////////////////////////////////////// linear search
+let sorteaDeEsto = (arrayRandom (100000000000000000000000,1500000,0));
 
 
 
-
-var starttime = new Date(0).getTime();
-
-function LinearSearch(A,searchQuery) {
-  for (var i = 0; i < 10; i++) {
-    if( A[i] === searchQuery) {
-      return i
-    }
-  }
-  return answer
-}
-
-var end = new Date(0).getTime();
+var starttime = new Date().getTime();
+var pos = LinearSearch(sorteaDeEsto, 27);
+var end = new Date().getTime();
 console.log(end -starttime);
+console.log(pos);
 
 
 
@@ -62,19 +51,19 @@ console.log(end -starttime);
 ////////////////////////////////////////////////////////////////////////////////// benchmark linear
 
 
+//
+// sorteaDeEsto.sort();
 
-sorteaDeEsto.sort();
-
-console.log(sorteaDeEsto);
+// console.log(sorteaDeEsto);
 
 ////////////////////////////////////////////////////////////////////////////////sort
 
-
-
-var starttime = new Date(0).getTime();
-sorteaDeEsto.sort();
-var end = new Date(0).getTime();
-console.log(end -starttime);
+//
+//
+// var starttime = new Date(0).getTime();
+// sorteaDeEsto.sort();
+// var end = new Date(0).getTime();
+// console.log(end -starttime);
 
 
 //////////////////////////////////////////////////////////////////////////////////benchmark sort
@@ -133,6 +122,7 @@ function quick_Sort(origArray) {
 
 var myArray = (arrayRandom(10,15,0));
 
-console.log("Original array: " + myArray);
-var sortedArray = quick_Sort(myArray);
-console.log("Sorted array: " + sortedArray);
+// console.log("Original array: " + myArray);
+// var sortedArray = quick_Sort(myArray);
+//
+// console.log("Sorted array: " + sortedArray);
