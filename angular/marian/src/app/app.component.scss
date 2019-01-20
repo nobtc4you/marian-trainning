@@ -1,18 +1,23 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @font-face {
-  font-family: 'Jura-Medium';
-  src: url('/assets/fonts/Jura-Medium.ttf');
-  font-display: fallback;
+    font-family: 'Jura-Medium';
+    src: url('/assets/fonts/Jura-Medium.ttf');
+    font-display: fallback;
 }
 
-    
-h1, h2, h3, h4, p, div, input{
+h1,
+h2,
+h3,
+h4,
+p,
+div,
+input {
     font-family: Jura-Medium;
 }
-h1{
+
+h1 {
     font-size: 38px;
 }
-
 
 .titlecontainer {
     height: 125px;
@@ -24,33 +29,20 @@ h1{
     background-color: #d9e8f4;
     background-image: url(/assets/images/patterns/patt_large_blue.svg);
     background-size: 250px;
+    h1 {
+        font-size: 35px;
+        color: #346DAB;
+        font-weight: normal;
+    }
 }
 
-.title {
-    font-size: 35px;
-    color: #346DAB;
-    font-weight: normal;
-}
-/* hr {
-        display: block;
-        unicode-bidi: isolate;
-        margin-block-start: 0.5em;
-        margin-block-end: 0.5em;
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-        overflow: hidden;
-        border-style: inset;
-        border-width: 1px;
-    } */
-
-.globalstandingandbutton {
+.globalstandingandpool {
     display: flex;
-    /* width: 1240px; */
     justify-content: space-evenly;
     margin-top: 32px;
 }
 
-.globalstanding {
+.globalstandingandpool {
     margin: 0 auto;
     padding: 6px 16px;
     max-width: 503px;
@@ -63,9 +55,8 @@ h1{
     box-shadow: 0 2px 4px 0 rgba(52, 109, 171, 0.51);
     border-radius: 2px;
     border-top: solid 3px #5D95CE;
-    margin-right: -242px;
+    margin-right: -227px;
 }
-/* .gtable {} */
 
 .gtitle {
     font-size: 22px;
@@ -81,21 +72,18 @@ h1{
     height: 4px;
     width: 100%;
 }
-/*  .hrdotted2 {
-        border: none;
-        border-top: 5px dotted #336fdc;
-        color: #fff;
-        background-color: #fff;
-        height: 4px;
-        width: 100%; 
+
+.gtable {
+    width: 94%;
 }
-*/
 
 .demo {
     border-collapse: collapse;
     border-spacing: 13px;
     padding: 0px;
     text-align: center;
+    width: 350px;
+    margin-right: 10px;
 }
 
 th {
@@ -109,6 +97,11 @@ td {
     font-size: 20px;
     letter-spacing: 0;
     text-align: center;
+}
+
+.vacant {
+    font-size: 18px;
+    color: #999999;
 }
 
 .lineblue {
@@ -138,6 +131,15 @@ td {
     background-color: #fcefc3;
 }
 
+.join-button {
+    display: flex;
+    flex-direction: column;
+    margin-left: 843px;
+    margin-top: 78px;
+    margin-bottom: 45px;
+    justify-content: center;
+}
+
 .joinbutton {
     position: relative;
     font-size: 30px;
@@ -153,12 +155,7 @@ td {
     cursor: pointer;
 }
 
-.join.button.info {
-    margin-left: -253px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 16px;
-}
+.join {}
 
 .feetxt {
     position: relative;
@@ -190,6 +187,14 @@ td {
     font-size: 30px;
     color: #346DAB;
     font-weight: normal;
+    margin-top: -16px;
+    margin-left: 52px;
+}
+
+.players {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fee {
@@ -197,15 +202,10 @@ td {
     flex-direction: row;
 }
 
-.players {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-}
-
 .status {
     display: flex;
     flex-direction: row;
+    margin-left: -96px;
 }
 
 .pstatus {
@@ -213,8 +213,6 @@ td {
     font-size: 30px;
     color: #DE4E58;
     font-weight: normal;
-    justify-content: center;
-    display: flex;
 }
 
 .livestatus {
@@ -225,25 +223,22 @@ td {
     margin-left: 7.5px;
 }
 
-.pricepot {
-    position: absolute;
-    top: 740px;
-    left: 859px;
+.pricepot {}
+
+.container-pot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ppricepot {
-    position: absolute;
-    top: 632px;
-    left: 907px;
-    font-size: 42px;
+    font-size: 33px;
     color: #346DAB;
     font-weight: normal;
 }
 
 .amountprice {
-    position: absolute;
-    top: 1018px;
-    left: 868px;
     font-size: 30px;
     color: #FFFFFF !important;
     background-color: #DE4E58 !important;
@@ -272,11 +267,31 @@ td {
     border-top: solid 3px #DE4E58;
 }
 
+.box2 {
+    margin: 0 auto;
+    padding: 6px 16px;
+    max-width: 503px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50px;
+    background-color: white;
+    margin: 0 5px 10px 5px;
+    box-shadow: 0 2px 4px 0 rgba(52, 109, 171, 0.51);
+    border-radius: 2px;
+    border-top: solid 3px #DE4E58;
+}
+
 .positionboxes {
     display: flex;
     justify-content: space-evenly;
 }
 
-.pot {
-    height: 560px;
+.demo2 {
+    border-collapse: collapse;
+    border-spacing: 13px;
+    padding: 0px;
+    text-align: center;
+    width: 230px;
+    margin-right: 10px;
 }
