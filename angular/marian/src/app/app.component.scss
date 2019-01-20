@@ -29,20 +29,22 @@ h1 {
     background-color: #d9e8f4;
     background-image: url(/assets/images/patterns/patt_large_blue.svg);
     background-size: 250px;
-    h1 {
-        font-size: 35px;
-        color: #346DAB;
-        font-weight: normal;
-    }
+}
+
+.title {
+    font-size: 35px;
+    color: #346DAB;
+    font-weight: normal;
 }
 
 .globalstandingandpool {
     display: flex;
+    /* width: 1240px; */
     justify-content: space-evenly;
     margin-top: 32px;
 }
 
-.globalstandingandpool {
+.globalstanding {
     margin: 0 auto;
     padding: 6px 16px;
     max-width: 503px;
