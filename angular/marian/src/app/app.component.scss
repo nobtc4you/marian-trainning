@@ -1,4 +1,4 @@
-@mixin zebra-shadow($size, $colors) {
+                            /* @mixin zebra-shadow($size, $colors) {
     $text-shadow: ();
     @for $i from 1 through length($colors) {
         @for $j from 0 through $size {
@@ -55,12 +55,14 @@ h1 {
     }
 }
 
-.main {
-    /* list-style: armenian; */
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    position: relative;
+/* .main {
+
+
+
+
+/* align-items: center; */
+                            /* justify-content: center; */
+                            /*  position: relative;
     height: 100vh;
     background-color: #B5D8F5;
     background-image: url("/assets/heroimage.jpg");
@@ -69,7 +71,8 @@ h1 {
         font-size: 50px;
         font-family: 'Courier New', Courier, monospace;
         /* margin-bottom: 500px; */
-        /* margin-top: 150px; */
+                            /* margin-top: 150px; */
+                            /*
         position: absolute;
         top: 10px;
         left: 50%;
@@ -95,14 +98,14 @@ hr {
     justify-content: center;
 }
 
-
+ 
 /* .boxrow {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
 } */
-
+                            /*
 .boxes1row {
     display: flex;
     align-items: center;
@@ -127,6 +130,7 @@ hr {
     width: 50px;
     border-radius: 5px;
     /* margin-right: 250px;  */
+                            /*
     background-color: #5046F4;
 }
 
@@ -185,7 +189,7 @@ background-image:url("https://wallpapercave.com/wp/wp2054299.jpg");
 
 }
 */
-
+                            /*
 .text {
     margin-left: 100px;
     font-size: large;
@@ -257,11 +261,298 @@ button {
 .date {
     color: snow;
     /* margin-right: -4px; */
-    /* margin-top: 69px; */
+                            /* margin-top: 69px; */
+                            /*
     font-size: -webkit-xxx-large;
     font-family: monospace;
 }
 
 #white {
     color: white;
-}
+} */
+                            
+                            /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                            /* @font-face {
+                                font-family: 'Jura-Medium';
+                                src: url(src\assets\fonts\Jura-Medium.ttf);
+                                fallback: fallback;
+                            } */
+                            
+                            .titlecontainer {
+                                height: 125px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin-bottom: 10px;
+                                background-color: #d9e8f4;
+                                background-image: url(/assets/images/patterns/patt_large_blue.svg);
+                                background-size: 250px;
+                            }
+                            
+                            .title {
+                                font-family: Jura-SemiBold;
+                                font-size: 35px;
+                                color: #346DAB;
+                                font-weight: normal;
+                            }
+                            /* hr {
+                                    display: block;
+                                    unicode-bidi: isolate;
+                                    margin-block-start: 0.5em;
+                                    margin-block-end: 0.5em;
+                                    margin-inline-start: auto;
+                                    margin-inline-end: auto;
+                                    overflow: hidden;
+                                    border-style: inset;
+                                    border-width: 1px;
+                                } */
+                            
+                            .globalstandingandbutton {
+                                display: flex;
+                                /* width: 1240px; */
+                                justify-content: space-evenly;
+                                margin-top: 32px;
+                            }
+                            
+                            .globalstanding {
+                                margin: 0 auto;
+                                padding: 6px 16px;
+                                max-width: 503px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                min-height: 50px;
+                                background-color: white;
+                                margin: 0 5px 10px 5px;
+                                box-shadow: 0 2px 4px 0 rgba(52, 109, 171, 0.51);
+                                border-radius: 2px;
+                                border-top: solid 3px #5D95CE;
+                                margin-right: -242px;
+                            }
+                            /* .gtable {} */
+                            
+                            .gtitle {
+                                font-family: Jura-SemiBold;
+                                font-size: 22px;
+                                color: #346DAB;
+                                font-weight: bold;
+                            }
+                            
+                            .hrdotted {
+                                border: none;
+                                border-top: 5px dotted #336fdc;
+                                color: #fff;
+                                background-color: #fff;
+                                height: 4px;
+                                width: 100%;
+                            }
+                            /*  .hrdotted2 {
+                                    border: none;
+                                    border-top: 5px dotted #336fdc;
+                                    color: #fff;
+                                    background-color: #fff;
+                                    height: 4px;
+                                    width: 100%; 
+                            }
+                            */
+                            
+                            .demo {
+                                border-collapse: collapse;
+                                border-spacing: 13px;
+                                padding: 0px;
+                                text-align: center;
+                            }
+                            
+                            th {
+                                font-size: 19px;
+                                color: #999999;
+                                font-weight: normal;
+                                text-align: center;
+                            }
+                            
+                            td {
+                                font-family: Jura-Medium;
+                                font-size: 20px;
+                                letter-spacing: 0;
+                                text-align: center;
+                            }
+                            
+                            .lineblue {
+                                background-color: #D9E8F4;
+                                border-radius: 4px;
+                            }
+                            
+                            .linebluered {
+                                background-color: #D9E8F4;
+                                border-radius: 4px;
+                                border: 5px solid #FB7A83
+                            }
+                            
+                            .linewhite {
+                                border-radius: 4px;
+                            }
+                            
+                            .lineblue:hover {
+                                background-color: #fcefc3;
+                            }
+                            
+                            .linewhite:hover {
+                                background-color: #fcefc3;
+                            }
+                            
+                            .linebluered:hover {
+                                background-color: #fcefc3;
+                            }
+                            
+                            .joinbutton {
+                                position: relative;
+                                font-family: Jura-Bold;
+                                font-size: 30px;
+                                color: #FFFFFF !important;
+                                background-color: #DE4E58 !important;
+                                border: 5px solid #FB7A83;
+                                border-radius: 6px;
+                                padding: 12px 30px;
+                                margin: 32px 6px;
+                                z-index: 3;
+                                outline: none;
+                                box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.24);
+                                cursor: pointer;
+                            }
+                            
+                            .join.button.info {
+                                margin-left: -253px;
+                                display: flex;
+                                flex-direction: column;
+                                margin-top: 16px;
+                            }
+                            
+                            .feetxt {
+                                position: relative;
+                                font-family: Jura-Bold;
+                                font-size: 30px;
+                                color: #346DAB;
+                                font-weight: normal;
+                            }
+                            
+                            .rfeetxt {
+                                position: relative;
+                                font-family: Jura-Bold;
+                                font-size: 30px;
+                                color: #DE4E58;
+                                font-weight: normal;
+                                margin-left: 15px;
+                            }
+                            
+                            .amountplayers {
+                                position: relative;
+                                font-family: Jura-Bold;
+                                font-size: 30px;
+                                color: #DE4E58;
+                                font-weight: normal;
+                                /*  justify-content: center; */
+                                display: flex;
+                                margin-top: -30px;
+                            }
+                            
+                            .registeredamountplayers {
+                                position: relative;
+                                font-family: Jura-Bold;
+                                font-size: 30px;
+                                color: #346DAB;
+                                font-weight: normal;
+                            }
+                            
+                            .fee {
+                                display: flex;
+                                flex-direction: row;
+                            }
+                            
+                            .players {
+                                display: flex;
+                                flex-direction: column-reverse;
+                                justify-content: center;
+                            }
+                            
+                            .status {
+                                display: flex;
+                                flex-direction: row;
+                            }
+                            
+                            .pstatus {
+                                position: relative;
+                                font-family: Jura-Bold;
+                                font-size: 30px;
+                                color: #DE4E58;
+                                font-weight: normal;
+                                justify-content: center;
+                                display: flex;
+                            }
+                            
+                            .livestatus {
+                                position: relative;
+                                font-family: Jura-Bold;
+                                font-size: 30px;
+                                color: #346DAB;
+                                font-weight: normal;
+                                margin-left: 7.5px;
+                            }
+                            
+                            .pricepot {
+                                position: absolute;
+                                top: 740px;
+                                left: 859px;
+                            }
+                            
+                            .ppricepot {
+                                position: absolute;
+                                top: 632px;
+                                left: 907px;
+                                font-family: Jura-SemiBold;
+                                font-size: 42px;
+                                color: #346DAB;
+                                font-weight: normal;
+                            }
+                            
+                            .amountprice {
+                                position: absolute;
+                                top: 1018px;
+                                left: 868px;
+                                font-family: Jura-Bold;
+                                font-size: 30px;
+                                color: #FFFFFF !important;
+                                background-color: #DE4E58 !important;
+                                border: 4px solid #FB7A83;
+                                border-radius: 55px;
+                                padding: 0px 69px;
+                                margin: 29px 6px;
+                                z-index: 3;
+                                outline: none;
+                                box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.24);
+                                cursor: pointer;
+                            }
+                            
+                            .box {
+                                margin: 0 auto;
+                                padding: 6px 16px;
+                                max-width: 503px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                min-height: 50px;
+                                background-color: white;
+                                margin: 0 5px 10px 5px;
+                                box-shadow: 0 2px 4px 0 rgba(52, 109, 171, 0.51);
+                                border-radius: 2px;
+                                border-top: solid 3px #DE4E58;
+                            }
+                            
+                            .positionboxes {
+                                display: flex;
+                                justify-content: space-evenly;
+                            }
+                            
+                            .pot {
+                                height: 560px;
+                            }
