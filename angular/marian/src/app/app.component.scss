@@ -43,11 +43,9 @@ h1 {
     width: 80%;
     margin: 60px auto;
     justify-content: space-between;
-    // margin: 40px 0;
     .globalstanding {
         margin: 0 auto;
         padding: 6px 16px;
-        // max-width: 503px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -77,7 +75,6 @@ h1 {
                 font-weight: normal;
                 text-align: center;
             }
-            
             td {
                 font-size: 20px;
                 letter-spacing: 0;
@@ -91,143 +88,196 @@ h1 {
                 background-color: #D9E8F4;
                 border-radius: 4px;
             }
-            
             .linebluered {
                 background-color: #D9E8F4;
                 border-radius: 4px;
                 border: 5px solid #FB7A83
             }
-            
             .linewhite {
                 border-radius: 4px;
             }
-            
             .lineblue:hover {
                 background-color: #fcefc3;
             }
-            
             .linewhite:hover {
                 background-color: #fcefc3;
             }
-            
             .linebluered:hover {
                 background-color: #fcefc3;
             }
         }
     }
     .container-pot {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      
-      .ppricepot {
-        font-size: 30px;
-        color: #346DAB;
-        font-weight: normal;
-      }
-      .hor{
-          display: flex;
-          img{
-            height: 100px;
-          }
-      }
-
-      .amountprice {
-        font-size: 30px;
-        color: #FFFFFF !important;
-        background-color: #DE4E58 !important;
-        border: 4px solid #FB7A83;
-        border-radius: 55px;
-        padding: 0px 69px;
-        margin: 29px 6px;
-        z-index: 3;
-        outline: none;
-        box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.24);
-        cursor: pointer;
-      }
-
-      .join-button {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-
-          .fee {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .ppricepot {
+            font-size: 30px;
+            color: #346DAB;
+            font-weight: normal;
+        }
+        .datecreation {
+            position: relative;
+            top: 7px;
+            right: 38px;
             display: flex;
             flex-direction: row;
-            font-size: 18px;
-            font-weight: normal;
+            .date {
+                font-size: 19px;
+                color: #346DAB;
+                font-weight: normal;
+            }
+            .datered {
+                font-size: 19px;
+                color: #DE4E58;
+                font-weight: bold;
+            }
+        }
+        .creator {
+            position: relative;
+            right: 69px;
+            display: flex;
+            flex-direction: row;
+            .user {
+                font-size: 19px;
+                color: #346DAB;
+                font-weight: normal;
+            }
+            .username {
+                font-size: 19px;
+                color: #DE4E58;
+                font-weight: bold;
+            }
+        }
+        .img-prize {
+            display: flex;
+            flex-direction: row;
+            .img {
+                display: flex;
+                height: 136px;
+            }
+            .amount-accomulated {
+                position: relative;
+                right: 63px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .accomulated {
+                    font-size: 24px;
+                    color: #346DAB;
+                    font-weight: normal;
+                    margin-bottom: 1px;
+                }
+            }
+        }
+        .amountprice {
+            font-size: 30px;
+            color: #FFFFFF !important;
+            background-color: #DE4E58 !important;
+            border: 4px solid #FB7A83;
+            border-radius: 55px;
+            padding: 0px 69px;
+            margin: 29px 6px;
+            z-index: 3;
+            outline: none;
+            box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.24);
+            cursor: pointer;
+        }
+        .starts-in {
+            font-size: 21px;
+            color: #DE4E58;
+            font-weight: bolder;
+            position: relative;
+            right: 69px;
+        }
+        .league-duration {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            right: 35px;
+            .duration {
+                font-size: 19px;
+                color: #346DAB;
+                font-weight: normal;
+            }
+            .series {
+                font-size: 19px;
+                color: #DE4E58;
+                font-weight: bold;
+            }
+        }
+        .join-button {
+            display: flex;
+            flex-direction: column;
             justify-content: center;
-            margin-bottom: 6px;
-            p{
-                margin: 0;
+            margin-top: 14px;
+            .fee {
+                display: flex;
+                flex-direction: row;
+                font-size: 18px;
+                font-weight: normal;
+                justify-content: center;
+                margin-bottom: 6px;
+                p {
+                    margin: 0;
+                }
+                .feetxt {
+                    color: #346DAB;
+                }
+                .rfeetxt {
+                    color: #DE4E58;
+                    margin-left: 15px;
+                }
             }
-            .feetxt {
-              color: #346DAB;
+            .joinbutton {
+                position: relative;
+                font-size: 30px;
+                color: #FFFFFF !important;
+                background-color: #DE4E58 !important;
+                border: 5px solid #FB7A83;
+                border-radius: 6px;
+                padding: 12px 30px;
+                //   margin: 32px 6px;'
+                margin-bottom: 10px;
+                z-index: 3;
+                outline: none;
+                box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.24);
+                cursor: pointer;
             }
-            .rfeetxt {
-              color: #DE4E58;
-              margin-left: 15px;
-            }
-          }
-          .joinbutton {
-              position: relative;
-              font-size: 30px;
-              color: #FFFFFF !important;
-              background-color: #DE4E58 !important;
-              border: 5px solid #FB7A83;
-              border-radius: 6px;
-              padding: 12px 30px;
-            //   margin: 32px 6px;'
-              margin-bottom: 10px;
-              z-index: 3;
-              outline: none;
-              box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.24);
-              cursor: pointer;
-          }
-
-          
-      }
+        }
     }
-
-
 }
 
-
-
-
-
-
-
-
-
-
-.amountplayers {
-    position: relative;
-    font-size: 30px;
-    color: #DE4E58;
-    font-weight: normal;
-    /*  justify-content: center; */
-    display: flex;
-    margin-top: -30px;
-}
-
-.registeredamountplayers {
-    position: relative;
+.weeks1-4 {
     font-size: 30px;
     color: #346DAB;
     font-weight: normal;
-    margin-top: -16px;
-    margin-left: 52px;
+    text-align: center;
+}
+
+.hrweeks {
+    max-width: 800px;
+    margin: 30px auto;
+    color: #346DAB;
 }
 
 .players {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    .amountplayers {
+        position: relative;
+        font-size: 22px;
+        color: #DE4E58;
+        font-weight: normal;
+    }
+    .registeredamountplayers {
+        position: relative;
+        font-size: 22px;
+        color: #346DAB;
+        font-weight: normal;
+    }
 }
-
-
 
 .status {
     display: flex;
@@ -250,15 +300,7 @@ h1 {
     margin-left: 7.5px;
 }
 
-
-
-
-
-
-
 // Bien
-
-
 .box {
     margin: 0 auto;
     padding: 6px 16px;
