@@ -113,6 +113,8 @@ h1 {
         justify-content: space-between;
         align-items: flex-start;
         width: 500px;
+        border: 3px solid #346DAB;
+        border-radius: 6px;
         p {
             margin: 8px;
         }
@@ -158,7 +160,7 @@ h1 {
         .img-prize {
             display: flex;
             flex-direction: row;
-            width: 100%;
+            width: 95.3%;
             background-color: #d9e8f4;
             padding: 12px;
             border-radius: 2px;
@@ -277,6 +279,21 @@ h1 {
             }
         }
     }
+}
+
+.coming-soon{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 500px;
+width: 100%;
+background-color: #5D95CE;
+ .coming-soon-text{
+  font-size: 50px;
+  color: #D9E8F4;
+  font-family: "Jura-Medium";
+
+ }
 }
 
 .weeks1-4 {
