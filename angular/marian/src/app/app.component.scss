@@ -157,6 +157,26 @@ h1 {
                 font-weight: bold;
             }
         }
+
+        .total-tokens{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            .total-amount {
+                font-size: 19px;
+                color: #346DAB;
+                font-weight: normal;
+            }
+            .amount-tokens {
+                font-size: 19px;
+                color: #DE4E58;
+                font-weight: bolder;
+                position: relative;
+                // right: 69px;
+            }
+
+
+        }
         .img-prize {
             display: flex;
             flex-direction: row;
@@ -363,31 +383,30 @@ background-color: #5D95CE;
     border-top: solid 3px #DE4E58;
 }
 
-.box2 {
-    margin: 0 auto;
-    padding: 6px 16px;
-    max-width: 503px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 50px;
-    background-color: white;
-    margin: 0 5px 10px 5px;
-    box-shadow: 0 2px 4px 0 rgba(52, 109, 171, 0.51);
-    border-radius: 2px;
-    border-top: solid 3px #DE4E58;
-}
 
 .positionboxes {
     display: flex;
     justify-content: space-evenly;
-}
-
-.demo2 {
-    border-collapse: collapse;
-    border-spacing: 13px;
-    padding: 0px;
-    text-align: center;
-    width: 230px;
-    margin-right: 10px;
+    .box2 {
+        margin: 0 auto;
+        padding: 6px 16px;
+        max-width: 503px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 50px;
+        background-color: white;
+        margin: 0 5px 10px 5px;
+        box-shadow: 0 2px 4px 0 rgba(52, 109, 171, 0.51);
+        border-radius: 2px;
+        border-top: solid 3px #DE4E58;
+            .demo2 {
+                border-collapse: collapse;
+                border-spacing: 13px;
+                padding: 0px;
+                text-align: center;
+                width: 230px;
+                margin-right: 10px;
+            }
+    }
 }
